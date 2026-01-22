@@ -1,0 +1,12 @@
+name: Scheduled-Github-Action-Workflow
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  scheduled-demo-github-action:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print-Scheduled-Greeting-Message
+      run: echo "Hello, Welcome to GitHub Actions Workflow"

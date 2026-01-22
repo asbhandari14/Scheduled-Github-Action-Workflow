@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name: Print-Scheduled-Greeting-Message
-      run: echo "Hello, Welcome to GitHub Actions Workflow"
+      run: echo "Hello, This is a scheduled GitHub Actions Workflow running at midnight every day!"
